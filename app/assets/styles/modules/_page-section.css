@@ -7,4 +7,12 @@
     background-color: $mainBlue;
     color: #ffffff;
   }
+
+  &--testimonials {
+    background-color: #e0e6ef;
+    @mixin atMedium {
+      background: url("/assets/images/testimonials-bg.jpg") no-repeat top
+        center/cover;
+    }
+  }
 }
