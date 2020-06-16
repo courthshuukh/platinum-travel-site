@@ -1,6 +1,8 @@
-// import "../styles/styles.css";
-// if (module.hot) {
-//   module.hot.accert();
-// }
+import "../styles/styles.css";
+import MobileMenu from "./modules/MobileMenu";
 
-// Энэ мөрөөс доошоо жишээ код байгаа.
+let mobileMenu = new MobileMenu();
+
+if (module.hot) {
+  module.hot.accert();
+}
